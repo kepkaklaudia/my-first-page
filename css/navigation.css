@@ -1,0 +1,137 @@
+.navigation {
+    top: 90px;
+    height: 90px;
+    width: 100%;
+    background-color: rgb(182, 182, 255);
+    text-align: center;
+    position: fixed;
+}
+
+.navigation__heading {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    color: rgb(0, 16, 85);
+    float: left;
+    padding: 27px;
+    margin: auto;
+}
+
+.navigation__list {
+    margin: 0 30px 0 auto;
+}
+
+.navigation__item {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navigation__anchor {
+    padding: 5px 10px;
+    background-color: rgb(75, 75, 196);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 15px;
+    transition-duration: 0.3s;
+    line-height: 1.75;
+    display: block;
+    margin-top: 5px;
+}
+
+.navigation__anchor:hover {
+    background-color: rgb(221, 221, 221);
+    color: rgb(2, 0, 133);
+}
+
+.navigation__anchor:active {
+    background-color: rgb(221, 221, 221);
+    box-shadow: 0 3px rgb(179, 179, 179);
+    transform: translateY(1px);
+}
+
+.navigation__button {
+    padding: 5px 10px;
+    background-color: rgb(251, 206, 252);
+    color: rgb(75, 75, 196);
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 15px;
+    transition-duration: 0.3s;
+    float: right;
+    line-height: 1.75;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 30px;
+}
+
+.navigation__button:hover {
+    background-color: rgb(221, 221, 221);
+    color: rgb(2, 0, 133);
+}
+
+.navigation__button:active {
+    background-color: rgb(221, 221, 221);
+    box-shadow: 0 3px rgb(179, 179, 179);
+    transform: translateY(1px);
+}
+
+.background {
+    background-color: rgb(253, 226, 253);
+}
+
+.background--button{
+    background-color:rgb(230, 230, 250);
+}
+
+.navigation__button--menu,
+.navigation__button--background {
+    display: none;
+}
+
+@media screen and (max-width: 908px) {
+
+    .navigation__button,
+    .navigation__heading {
+        display: none;
+    }
+
+    .navigation {
+        height: 70px;
+    }
+
+    .navigation__button--menu {
+        display: block;
+        font-family: 'Amatic SC', cursive;
+        font-size: 30px;
+        margin: 12.5px 0 12.5px 30px;
+        float: none;
+        padding: 0px 15px;
+        line-height:1.5;
+    }
+
+    .navigation__button--background {
+        display: block;
+        margin: 18px 30px 18px 0;
+        line-height:1.5;
+    }
+
+    .navigation__list{
+        background-color: rgb(182, 182, 255);
+        width:100%;
+        padding: 0 15px 5px;
+    }
+
+    .navigation__anchor {
+        margin: 3px;
+        padding: 1px 3px;
+        font-size: 14px;
+    }
+
+    .navigation__item {
+        display: none;
+    }
+
+    .navigation__item.active {
+        display: block;
+    }
+}

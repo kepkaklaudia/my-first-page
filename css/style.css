@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-padding-top: 195px;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: rgb(230, 230, 250);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 908px) {
+    html {
+        scroll-padding-top: 180px;
+    }
+}

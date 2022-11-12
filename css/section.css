@@ -1,0 +1,28 @@
+.section {
+    margin-top: 200px;
+    padding: 0 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
+.section__heading {
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    color: rgb(0, 16, 85);
+    margin: 10px;
+}
+
+.section__specialText {
+    color: rgb(16, 123, 223);
+}
+
+.section__division {
+    color: rgb(2, 0, 133)
+}
+
+@media screen and (max-width: 908px) {
+    .section {
+        margin-top: 170px;
+    }
+}

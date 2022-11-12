@@ -1,0 +1,29 @@
+.main {
+    padding: 15px;
+    text-align: center;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__heading {
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    color: rgb(0, 16, 85);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.main__anchor:link {
+    text-decoration: none;
+    color: rgb(38, 0, 255);
+}
+
+.main__anchor:visited {
+    text-decoration: none;
+    color: rgb(38, 0, 255);
+}
+
+.main__anchor:hover {
+    color: rgb(220, 20, 60);
+}
