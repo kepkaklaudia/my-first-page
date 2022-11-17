@@ -3,9 +3,9 @@
     height: 90px;
     width: 100%;
     background-color: rgb(182, 182, 255);
-    padding-right:30px;
+    padding-right: 30px;
     position: fixed;
-    display:flex;
+    display: flex;
 }
 
 .navigation__heading {
@@ -17,10 +17,11 @@
 }
 
 .navigation__list {
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    margin-top:0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0;
+    padding: 0;
 }
 
 .navigation__item {
@@ -60,8 +61,9 @@
     border-radius: 15px;
     transition-duration: 0.3s;
     cursor: pointer;
-    margin:auto;
-    order:1;
+    margin: auto;
+    order: 1;
+    flex-basis: 80px;
 }
 
 .navigation__button:hover {
@@ -79,8 +81,8 @@
     background-color: rgb(253, 226, 253);
 }
 
-.background--button{
-    background-color:rgb(230, 230, 250);
+.background--button {
+    background-color: rgb(230, 230, 250);
 }
 
 .navigation__button--menu {
@@ -89,47 +91,53 @@
 
 @media screen and (max-width: 955px) {
 
-
     .navigation__heading {
         display: none;
     }
 
     .navigation {
         height: 70px;
+        padding-right: 0px;
+    }
+
+    .navigation__button {
+        line-height: 1.5;
+        position: absolute;
+        align-self: center;
+    }
+
+    .navigation__button--background {
+        right: 30px;
     }
 
     .navigation__button--menu {
         display: block;
         font-family: 'Amatic SC', cursive;
         font-size: 30px;
-        margin: 12.5px 0 12.5px 30px;
-        float: none;
-        padding: 0px 15px;
-        line-height:1.5;
+        left: 30px;
     }
 
-    .navigation__list{
-        background-color: rgb(182, 182, 255);
-        width:100%;
-        margin-top:70px;
-        padding: 0 15px 5px;
-        display:flex;
-        flex-direction:column;
+    .navigation__list {
+        width: 100%;
+        margin: 70px 0 0 0;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: flex-start;
     }
 
     .navigation__anchor {
         margin: 3px;
         padding: 1px 3px;
         font-size: 14px;
-        text-align:center;
-        }
-    
+        text-align: center;
+    }
 
     .navigation__item {
         display: none;
     }
 
-    .navigation__item.active {
-        display: block;
+	.navigation__item.active {
+		display: block;
+        background-color: rgb(182, 182, 255);
     }
 }
