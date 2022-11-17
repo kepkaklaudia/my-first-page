@@ -5,7 +5,6 @@
 
   const init = () => {
     backgroundButtonElement.addEventListener("click", toggleBackground);
-    mobileBackgroundButtonElement.addEventListener("click", toggleMobileBackground);
     const menuButtonElement = document.querySelector(".js-button--menu");
     menuButtonElement.addEventListener("click", showMenu);
     window.addEventListener("click", hideMenu);
@@ -14,18 +13,13 @@
 
   const backgroundButtonElement = document.querySelector(".js-button");
   const headerElement = document.querySelector(".header");
-  const mobileBackgroundButtonElement = document.querySelector(".js-button--background");
+  const bodyElement = document.querySelector(".js-body");
 
   const toggleBackground = () => {
     backgroundButtonElement.classList.toggle("background--button");
-    document.body.classList.toggle("background");
+    bodyElement.classList.toggle("background");
     headerElement.classList.toggle("background");
     backgroundButtonElement.innerText === "Włącz różowe tło" ? backgroundButtonElement.innerText = "Włącz błękitne tło" : backgroundButtonElement.innerText = "Włącz różowe tło";
-  }
-  const toggleMobileBackground = () => {
-    document.body.classList.toggle("background");
-    headerElement.classList.toggle("background");
-    mobileBackgroundButtonElement.innerText === "Włącz różowe tło" ? mobileBackgroundButtonElement.innerText = "Włącz błękitne tło" : mobileBackgroundButtonElement.innerText = "Włącz różowe tło";
   }
 
 {

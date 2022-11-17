@@ -3,26 +3,28 @@
     height: 90px;
     width: 100%;
     background-color: rgb(182, 182, 255);
-    text-align: center;
+    padding-right:30px;
     position: fixed;
+    display:flex;
 }
 
 .navigation__heading {
     font-family: 'Amatic SC', cursive;
     font-size: 30px;
     color: rgb(0, 16, 85);
-    float: left;
     padding: 27px;
     margin: auto;
 }
 
 .navigation__list {
-    margin: 0 30px 0 auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top:0;
 }
 
 .navigation__item {
     list-style-type: none;
-    display: inline-block;
 }
 
 .navigation__anchor {
@@ -34,7 +36,7 @@
     transition-duration: 0.3s;
     line-height: 1.75;
     display: block;
-    margin-top: 5px;
+    margin: 5px 5px auto auto;
 }
 
 .navigation__anchor:hover {
@@ -49,19 +51,17 @@
 }
 
 .navigation__button {
-    padding: 5px 10px;
+    padding: 5px;
     background-color: rgb(251, 206, 252);
     color: rgb(75, 75, 196);
-    font-size: 16px;
+    font-size: 12px;
     font-family: 'Montserrat', sans-serif;
     border: none;
     border-radius: 15px;
     transition-duration: 0.3s;
-    float: right;
-    line-height: 1.75;
     cursor: pointer;
-    margin-top: 5px;
-    margin-right: 30px;
+    margin:auto;
+    order:1;
 }
 
 .navigation__button:hover {
@@ -83,14 +83,13 @@
     background-color:rgb(230, 230, 250);
 }
 
-.navigation__button--menu,
-.navigation__button--background {
+.navigation__button--menu {
     display: none;
 }
 
-@media screen and (max-width: 908px) {
+@media screen and (max-width: 955px) {
 
-    .navigation__button,
+
     .navigation__heading {
         display: none;
     }
@@ -109,23 +108,22 @@
         line-height:1.5;
     }
 
-    .navigation__button--background {
-        display: block;
-        margin: 18px 30px 18px 0;
-        line-height:1.5;
-    }
-
     .navigation__list{
         background-color: rgb(182, 182, 255);
         width:100%;
+        margin-top:70px;
         padding: 0 15px 5px;
+        display:flex;
+        flex-direction:column;
     }
 
     .navigation__anchor {
         margin: 3px;
         padding: 1px 3px;
         font-size: 14px;
-    }
+        text-align:center;
+        }
+    
 
     .navigation__item {
         display: none;
