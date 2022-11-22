@@ -81,8 +81,8 @@
     background-color: rgb(253, 226, 253);
 }
 
-.background--button {
-    background-color: rgb(230, 230, 250);
+.background .navigation__button{
+	background-color: rgb(230, 230, 250);
 }
 
 .navigation__button--menu {

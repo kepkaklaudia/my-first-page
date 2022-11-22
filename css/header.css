@@ -12,3 +12,7 @@
     margin: 0 auto;
     padding: 20px;
 }
+
+.background .header{
+	background-color: rgb(253, 226, 253);
+}
