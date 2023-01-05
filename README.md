@@ -1,5 +1,5 @@
 # <img src="images/icon.png" height="30"/> Sanah Poezje Website
-<img src="images/poezje.gif" width="250" height="250"/>
+<img src="images/poezje.gif" height="250"/>
 
 <img src="images/myIcons/kk.png" height="15"/> Made by Klaudia Kępka
 
