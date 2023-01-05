@@ -7,7 +7,7 @@
 [Sanah Poezje Demo Website](https://kepkaklaudia.github.io/myFirstPage/)
 
 ## <img src="images/myIcons/quick.png" height="20"/> Quick Preview
-![gifPreview](preview.gif)
+![gifPreview](images/preview.gif)
 
 ## Logo
 You can find the centered artist logo at the top of the page.
