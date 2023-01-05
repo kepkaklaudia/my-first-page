@@ -1,12 +1,14 @@
-# Sanah Poezje Website
-![gif](poezje.gif)
-Made by Klaudia Kępka
+# <img src="images/icon.png" height="30"/> Sanah Poezje Website
+<img src="images/poezje.gif" width="250" height="250"/>
 
-## Sanah Poezje Demo Website:
-https://kepkaklaudia.github.io/myFirstPage/
+<img src="images/myIcons/kk.png" height="15"/> Made by Klaudia Kępka
 
-## Quick Preview
+## <img src="images/myIcons/demo.png" height="20"/> Sanah Poezje Demo Website:
+[Sanah Poezje Demo Website](https://kepkaklaudia.github.io/myFirstPage/)
+
+## <img src="images/myIcons/quick.png" height="20"/> Quick Preview
 ![gifPreview](preview.gif)
+
 ## Logo
 You can find the centered artist logo at the top of the page.
 The logo contains link which can bring you on the top of this page.
@@ -39,11 +41,7 @@ The navigation menu is not visible but you can open it by clicking "Utwory" butt
 The change background button is slightly changed - it is placed in a blue box and does not change its background when clicked.
 
 ## Technologies used
-- HTML
-- CSS
-- JavaScript, ES6+ Features
-- BEM Convention
-- normalise.css
+<img src="images/myIcons/html.png" height="90"/> <img src="images/myIcons/css.png" height="90"/> <img src="images/myIcons/js.png" height="90"/> <img src="images/myIcons/es6.png" height="90"/> <img src="images/myIcons/bem.png" height="90"/> <img src="images/myIcons/norm.png" height="90"/>
 
 This is my first website - thank you for your understanding!
 The website was created for training purposes. Still learning!
