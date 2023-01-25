@@ -4,7 +4,7 @@
 <img src="images/myIcons/kk.png" height="15"/> Made by Klaudia Kępka
 
 ## <img src="images/myIcons/demo.png" height="20"/> Sanah Poezje Demo Website:
-[Sanah Poezje Demo Website](https://kepkaklaudia.github.io/myFirstPage/)
+[Sanah Poezje Demo Website](https://kepkaklaudia.github.io/my-first-page/)
 
 ## <img src="images/myIcons/quick.png" height="20"/> Quick Preview
 ![gifPreview](images/preview.gif)
